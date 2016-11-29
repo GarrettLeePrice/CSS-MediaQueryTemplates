@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+}
+
+.header,
+.main,
+.sub1,
+.sub2,
+.sub3,
+.sub4,
+.sub5 {
+  background-color: black;
+  color: fuchsia;
+
+}
+
+.header {
+  height: 10vh;
+  width: 94vw;
+  margin: 3% 0 0 1%;
+}
+
+.main,
+.sub1,
+.sub2,
+.sub3,
+.sub4,
+.sub5 {
+  height: 30vh;
+  width: 90vw;
+  margin: 3%;
+}
+
+
+@media screen and (min-width:768px) {
+  .main,
+  .sub1,
+  .sub2,
+  .sub3,
+  .sub4,
+  .sub5 {
+    height: 30vh;
+    width: 43vw;
+    margin: 3% 2% 3% 2.5%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1221px){
+  .main,
+  .sub1,
+  .sub2,
+  .sub3,
+  .sub4,
+  .sub5 {
+    height: 40vh;
+    width: 29.6vw;
+    margin: 3% 0% 0% 1.75%;
+    float: left;
+  }
+
+  .header {
+    margin-bottom: .5%;
+    height: 12vh;
+  }
+
+  .main {
+    background-color: red;
+  }
+
+  .sub1 {
+    background-color: orange;
+  }
+
+  .sub2{
+    background-color: yellow;
+  }
+
+  .sub3 {
+    background-color: green;
+  }
+
+  .sub5 {
+    background-color: blue;
+  }
+
+  .sub4 {
+    background-color: purple;
+  }
+}
