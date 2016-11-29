@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 100vw;
+}
+.main,
+.sub1,
+.sub2 {
+  background-color: black;
+  color: fuchsia;
+
+}
+
+.main {
+  height: 80vh;
+  width: 64vw;
+  float: left;
+  margin: 1%;
+}
+
+.sub1,
+.sub2 {
+  height: 39.2vh;
+  width: 33vw;
+  float: right;
+
+  }
+
+  .sub1 {
+    margin: 1% 1% 0 0;
+
+  }
+
+.sub2 {
+  margin: 1% 1% 0 0;
+}
+
+@media screen and (max-width:1224px) {
+  .main {
+    width:90vw;
+    margin: 1%;
+  }
+  .sub1,
+  .sub2 {
+    height: 39.2vh;
+    width: 43.85vw;
+    float: left;
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .main {
+    height: 48vh;
+    width:95vw;
+    margin: 1%;
+  }
+  .sub1,
+  .sub2 {
+    height: 24vh;
+    width: 95vw;
+    margin: 1%;
+  }
+}
