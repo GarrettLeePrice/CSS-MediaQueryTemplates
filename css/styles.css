@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+}
+.main,
+.sub1,
+.sub2 {
+  background-color: black;
+  color: fuchsia;
+
+}
+
+.main {
+  height: 80vh;
+  width: 64vw;
+  float: left;
+  margin: 1%;
+}
+
+.sub1,
+.sub2 {
+  height: 39.2vh;
+  width: 33vw;
+  float: right;
+
+  }
+
+  .sub1 {
+    margin: 1% 1% 0 0;
+
+  }
+
+.sub2 {
+  margin: 1% 1% 0 0;
+}
