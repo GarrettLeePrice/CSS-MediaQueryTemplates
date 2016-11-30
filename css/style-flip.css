@@ -80,7 +80,7 @@
     height: 2.5vh;
     width: 12vw;
     background-color: black;
-    margin: 3% .5%;
+    margin: 2.5% .5%;
     display: inline-block;
     float: right;
     position: relative;
@@ -101,7 +101,7 @@
     width: 260px;
     height: 260px;
     float: left;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-top: -1%;
     display: inline-block;
   }
@@ -120,8 +120,10 @@
   .main2,
   .main3,
   .main4 {
-    width: 250px;
+    width: 254px;
     height: 200px;
+    /*width: 10%;
+    height: 10%;*/
     background-color: black;
     margin: 7% auto;
     }
@@ -132,13 +134,92 @@
     }
   .sub2 {
     width: 45%;
-    float: right;
+    float: left;
+  }
+
+  .sub2 h1::before {
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    margin-right: 5%;
+  }
+
+  .sub2 h1 {
+    margin-left: -50px;
+
   }
 
   .text {
-    width: 90%;
+    width: 70%;
     margin: 5%;
   }
   }
+
+  @media screen and (min-width:1000px) {
+    .container {
+      margin: 5% 5% 5% 10%;
+    }
+
+    .nav {
+      margin: .1%;
+      width: 8vw;
+    }
+
+    .nav1 {
+      margin-right: 14%;
+    }
+
+    .main2,
+    .main3,
+    .main4 {
+      width: 300px;
+      height: 200px;
+      background-color: black;
+      margin: 8% 0;
+      display:block;
+      float: left;
+      /*clear: both;*/
+      }
+      .mainWrap,
+      .sub1,
+      .sub2 {
+        float: left;
+        width: 27%;
+
+      }
+      .sub2 h1::before {
+        content: "";
+        display: inline-block;
+        height: 45px;
+        width: 45px;
+        background-color: black;
+        margin-right: 5%;
+
+
+      }
+      .sub2 h1 {
+        margin-left: -60px;
+
+      }
+
+
+      .sub2 {
+        margin-left: 2%;
+      }
+      .text1 {
+        width: 40%;
+      }
+      .main {
+        width: 325px;
+        height: 325px;
+        margin-left: 15%;
+      }
+      .sub1 {
+        margin-left: 1%;
+      }
+    }
+
 
 }
