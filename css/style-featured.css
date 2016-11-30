@@ -119,7 +119,7 @@
 
 @media screen and (min-width:1000px) {
   .tile {
-    width:25vh;
+    width:21vh;
     float: left;
     margin: 2%;
     }
